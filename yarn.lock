@@ -2452,13 +2452,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"big.js@npm:^5.2.2":
-  version: 5.2.2
-  resolution: "big.js@npm:5.2.2"
-  checksum: ea33d7d25674df4253ae3667da7f48ade6cc8828cb4f2c3a7753f53975f10cebae57e0d1ecf84f1b920b5467262dc0d4f357e5e497b138472d0e64992a8402a4
-  languageName: node
-  linkType: hard
-
 "binary-extensions@npm:^1.0.0":
   version: 1.13.1
   resolution: "binary-extensions@npm:1.13.1"
@@ -3309,13 +3302,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emojis-list@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "emojis-list@npm:3.0.0"
-  checksum: a79126b55bc86ee8fd938235a6adf9d457c05fb5bb934e8608b7d35c878d9d1e312a67759244f5c3fba0810b508eb5617e5e6ad6886496ebcfa6832d1c8de3c4
-  languageName: node
-  linkType: hard
-
 "end-of-stream@npm:^1.1.0":
   version: 1.4.4
   resolution: "end-of-stream@npm:1.4.4"
@@ -3954,18 +3940,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-loader@npm:^6.0.0":
-  version: 6.2.0
-  resolution: "file-loader@npm:6.2.0"
-  dependencies:
-    loader-utils: ^2.0.0
-    schema-utils: ^3.0.0
-  peerDependencies:
-    webpack: ^4.0.0 || ^5.0.0
-  checksum: 0f103418c072ec66c081a9908cd7824ee19905e18be16889cb050f5f373998afaf7ca4c2fd2df4cabf703a2cd526aefe59105930e3f8d266a5b35e6d5f5b3cf4
-  languageName: node
-  linkType: hard
-
 "file-uri-to-path@npm:1.0.0":
   version: 1.0.0
   resolution: "file-uri-to-path@npm:1.0.0"
@@ -4064,6 +4038,40 @@ __metadata:
   checksum: f88983f4bf54f9a8847d15e54518535aecbfa9b7f0242604ca5cd027d88ea1469212b5dbb579233e769d0e2f4e6764bc6bbac44731fb78b9964942165c7c3048
   languageName: node
   linkType: hard
+
+"franco-react-pdf@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "franco-react-pdf@workspace:."
+  dependencies:
+    "@babel/cli": ^7.8.0
+    "@babel/core": ^7.9.0
+    "@babel/plugin-proposal-class-properties": ^7.8.0
+    "@babel/plugin-transform-runtime": ^7.9.0
+    "@babel/preset-env": ^7.9.0
+    "@babel/preset-react": ^7.9.0
+    "@babel/runtime": ^7.0.0
+    "@wojtekmaj/enzyme-adapter-react-17": ^0.6.0
+    babel-eslint: ^10.0.0
+    enzyme: ^3.10.0
+    eslint: ^7.12.0
+    eslint-config-wojtekmaj: ^0.5.0
+    jest: ^26.6.0
+    make-cancellable-promise: ^1.0.0
+    make-event-props: ^1.1.0
+    merge-class-names: ^1.1.1
+    merge-refs: ^1.0.0
+    pdfjs-dist: 2.6.347
+    prop-types: ^15.6.2
+    react: ^17.0.0
+    react-dom: ^17.0.0
+    rimraf: ^3.0.0
+    webpack: ^5.20.0
+  peerDependencies:
+    file-loader: "*"
+    react: ^16.3.0 || ^17.0.0-0
+    react-dom: ^16.3.0 || ^17.0.0-0
+  languageName: unknown
+  linkType: soft
 
 "fs-minipass@npm:^1.2.5":
   version: 1.2.7
@@ -5727,17 +5735,6 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"loader-utils@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "loader-utils@npm:2.0.0"
-  dependencies:
-    big.js: ^5.2.2
-    emojis-list: ^3.0.0
-    json5: ^2.1.2
-  checksum: a1c2e48781e1501e126a32c39bc1fb1a7e2f02bd99e5aeb8853ddaf3c121fffefcc4579367f97ca6890b58369e571af1c9ec82e4e20db238d560ab359ff25c33
-  languageName: node
-  linkType: hard
-
 "locate-path@npm:^2.0.0":
   version: 2.0.0
   resolution: "locate-path@npm:2.0.0"
@@ -6936,40 +6933,6 @@ fsevents@^2.1.2:
   checksum: 11bcf1267a314a522615f626f3ce3727a3a24cdbf61c4d452add3550a7875326669631326cfb1ba3e92b6f72244c32ffecf93ad21c0cad8455d3e169d0e3f060
   languageName: node
   linkType: hard
-
-"react-pdf@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-pdf@workspace:."
-  dependencies:
-    "@babel/cli": ^7.8.0
-    "@babel/core": ^7.9.0
-    "@babel/plugin-proposal-class-properties": ^7.8.0
-    "@babel/plugin-transform-runtime": ^7.9.0
-    "@babel/preset-env": ^7.9.0
-    "@babel/preset-react": ^7.9.0
-    "@babel/runtime": ^7.0.0
-    "@wojtekmaj/enzyme-adapter-react-17": ^0.6.0
-    babel-eslint: ^10.0.0
-    enzyme: ^3.10.0
-    eslint: ^7.12.0
-    eslint-config-wojtekmaj: ^0.5.0
-    file-loader: ^6.0.0
-    jest: ^26.6.0
-    make-cancellable-promise: ^1.0.0
-    make-event-props: ^1.1.0
-    merge-class-names: ^1.1.1
-    merge-refs: ^1.0.0
-    pdfjs-dist: 2.6.347
-    prop-types: ^15.6.2
-    react: ^17.0.0
-    react-dom: ^17.0.0
-    rimraf: ^3.0.0
-    webpack: ^5.20.0
-  peerDependencies:
-    react: ^16.3.0 || ^17.0.0-0
-    react-dom: ^16.3.0 || ^17.0.0-0
-  languageName: unknown
-  linkType: soft
 
 "react-shallow-renderer@npm:^16.13.1":
   version: 16.14.1

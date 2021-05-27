@@ -1,7 +1,7 @@
 {
-  "name": "react-pdf",
-  "version": "5.3.0",
-  "description": "Display PDFs in your React app as easily as if they were images.",
+  "name": "franco-react-pdf",
+  "version": "5.3.1-rc.0",
+  "description": "Forked version to test - Display PDFs in your React app as easily as if they were images.",
   "main": "dist/umd/entry.js",
   "module": "dist/esm/entry.js",
   "source": "src/entry.js",
@@ -89,7 +89,6 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "file-loader": "^6.0.0",
     "make-cancellable-promise": "^1.0.0",
     "make-event-props": "^1.1.0",
     "merge-class-names": "^1.1.1",
@@ -116,6 +115,7 @@
     "webpack": "^5.20.0"
   },
   "peerDependencies": {
+    "file-loader": "*",
     "react": "^16.3.0 || ^17.0.0-0",
     "react-dom": "^16.3.0 || ^17.0.0-0"
   },
@@ -131,7 +131,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wojtekmaj/react-pdf.git"
-  },
-  "funding": "https://github.com/wojtekmaj/react-pdf?sponsor=1"
+    "url": "https://github.com/FrancoSirena/react-pdf"
+  }
 }
